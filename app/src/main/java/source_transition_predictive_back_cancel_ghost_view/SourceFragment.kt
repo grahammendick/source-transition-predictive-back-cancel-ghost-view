@@ -14,7 +14,10 @@ class SourceFragment : Fragment(R.layout.fragment_source) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // Either transition will cause the bug
         exitTransition = Fade()
+        // reenterTransition = Fade()
+
         val logoView: View = view.findViewById(R.id.android_logo)
         val button: Button = view.findViewById(R.id.button3)
         button.setOnClickListener {
