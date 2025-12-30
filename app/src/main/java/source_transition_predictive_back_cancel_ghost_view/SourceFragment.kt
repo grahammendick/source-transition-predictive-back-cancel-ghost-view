@@ -19,7 +19,7 @@ class SourceFragment : Fragment(R.layout.fragment_source) {
         // reenterTransition = Fade()
 
         val logoView: View = view.findViewById(R.id.android_logo)
-        val button: Button = view.findViewById(R.id.button3)
+        val button: Button = view.findViewById(R.id.toast_button)
         button.setOnClickListener {
             Toast.makeText(requireContext(), getString(R.string.toast_text), Toast.LENGTH_SHORT).show()
         }
