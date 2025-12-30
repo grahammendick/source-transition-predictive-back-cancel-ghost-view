@@ -15,14 +15,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text" />
 
         <ImageView
             android:id="@+id/android_logo"
             android:layout_width="96dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="32dp"
             android:adjustViewBounds="true"
             android:contentDescription="@string/android_logo_description"
             android:src="@drawable/android_logo"

@@ -3,6 +3,8 @@
     <string name="instructions_source">Click on the image on the left to navigate to the destination fragment.</string>
     <string name="instructions_destination">Navigate back to the source fragment using the predictive back gesture to trigger the bug.</string>
     <string name="title_source">Source Fragment</string>
+    <string name="button_text">Show Toast</string>
+    <string name="toast_text">You clicked the ghost button</string>
     <string name="title_destination">Destination Fragment</string>
     <string name="android_logo_description">Android logo</string>
 </resources>
