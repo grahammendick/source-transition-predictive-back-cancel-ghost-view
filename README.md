@@ -1,4 +1,4 @@
-# Cancelling predictive back leaves ghost view behind
+# Cancelling predictive back leaves ghost view behind when there's exit or reenter transition
 This repository contains an example app that shows a bug when cancelling predictive back on a shared element transition. If there's an exit or reenter transition on the source fragment then the source fragment view isn't removed when the predictive back is cancelled. If you tap the text on the destination fragment then you'll trigger the toast button on the ghost source view that's left behind. The bug only happens if there's an exit of renreenter transition.
 
 ## Steps to recreate the problem
