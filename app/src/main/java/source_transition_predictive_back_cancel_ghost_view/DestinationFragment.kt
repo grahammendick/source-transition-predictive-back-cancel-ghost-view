@@ -13,7 +13,6 @@ class DestinationFragment : Fragment(R.layout.fragment_destination) {
         super.onCreate(savedInstanceState)
 
         enterTransition = Fade()
-        exitTransition = Fade()
         sharedElementEnterTransition = TransitionSet().apply {
             addTransition(
                 ChangeBounds()

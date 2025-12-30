@@ -5,12 +5,14 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.fragment.app.replace
+import androidx.transition.Fade
 
 class SourceFragment : Fragment(R.layout.fragment_source) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        exitTransition = Fade()
         val logoView: View = view.findViewById(R.id.android_logo)
         logoView.setOnClickListener {
             val fm = requireActivity().supportFragmentManager
