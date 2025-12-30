@@ -4,7 +4,7 @@ This repository contains an example app that shows a bug when cancelling predict
 ## Steps to recreate the problem
 1. Press the image to do the shared element transition.
 2. Start a predictive back but cancel it.
-3. Tapping the text at the top of the screen triggers the toast button on the previous screen.
+3. Tap the text at the top of the screen and the toast button on the previous screen triggers.
 
 You can see the bug in the video below. The Layout inspector is on so you can see that the previous view is added when the predictive back starts but isn't removed when it's cancelled.
 
